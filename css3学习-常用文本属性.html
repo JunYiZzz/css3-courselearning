@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	div.test
+	{
+		width: 12em;
+		border: 1px solid #000000;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	h3.test{
+		width: 11em;
+		border: 1px solid #000000;
+		word-wrap: break-word;
+	}
+	</style>
+</head>
+<body>
+	<h2>text-overflow:ellipsis</h2>
+	<div class="test" style="text-overflow: ellipsis;">这是一段长文本，没办法完整地在容器中显示</div>
+	<br>
+
+	<h2>text-overflow:clip</h2>
+	<div class="test" style="text-overflow: clip;">这是一段长文本，没办法完整地在容器中显示</div>
+	<br>
+
+	<h2>word-wrap:normal/break-word</h2>
+	<h3 class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime harum voluptates, eius culpa quia nostrum, ex, reiciendis alias asperiores obcaecati accusamus maiores impedit nam in esse eaque possimus! Numquam, quaerat sapiente in odit quo recusandae consequuntur. Voluptatum facilis tempora, rem enim expedita pariatur harum aut dolore dolorum, autem. Ab at, consequatur qui necessitatibus fuga nihil.</h3>
+</body>
+</html>

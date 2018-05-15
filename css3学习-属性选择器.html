@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		p
+		{
+			margin: 4px;
+		}
+
+		a[href^="http:"]/* 以http：开头 */
+		{
+			color: #8E8E8E
+		}
+		
+		a[href$="pdf"]/* 以pdf结束 */
+		{
+			color: #8E8E8E
+		}
+
+		a[href*="xxx"]/* 包含xxx */
+		{
+			color: #8E8E8E
+		}
+
+
+	</style>
+</head>
+<body>
+	<p><a href="http://www.baidu.com/name.pdf">PDF文件</a></p>
+	<p><a href="http://www.baidu.com/name.ppt">PPT文件</a></p>
+	<p><a href="http://www.baidu.com/name.xls">XLS文件</a></p>
+	<p><a href="http://www.baidu.com/xxx.rar">RAR文件</a></p>
+	<p><a href="http://www.baidu.com/name.gif">GIF文件</a></p>
+	<p><a href="http://www.baidu.com/xxx.jpg">JPG文件</a></p>
+	<p><a href="http://www.baidu.com/"></a>http://www.baidu.com/</p>
+</body>
+</html>
